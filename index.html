@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> {{ page.title}} </title>
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+    <header id='landing'>
+        <nav>
+            <li><a href="#landing">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </nav>
+        <div class='title'>
+            <div class='name'>
+                <h1>Mariusz Zarzycki</h1>    
+            </div>
+            <div class='sub'>
+                <p>I do <b>front-end development</b></p>    
+            </div>
+            <div class='arrow'>
+                <div class='left'></div>
+                <div class='right'></div>
+            </div>
+        </div>
+    </header>
+
+    <div id='projects' class='wrapper'>
+        <div class='header'>
+            <h1>Personal Projects</h1>
+            <p>I enjoy coding and designing in my free time</p>
+        </div>
+        <div class='projects'>
+            <div class='row'>
+                <div class='entry'>
+                    <a href=""><img src="https://i.imgur.com/7qV8yJW.png"></a>
+                    <p><b>standUP</b></p>
+                    <p>A small extension for your browser to remind you to take a break from work</p>
+                </div>
+                <div class='entry'>
+                    <a href=""><img src="https://i.imgur.com/bmqIcq0.png"></a>
+                    <p><b>Cute Clock</b></p>
+                    <p>Time keeping in a sleek and efficient form</p>
+                </div>
+            </div>
+            <div class='row'>
+                <div class='entry'>
+                    <a href=""><img src="https://i.imgur.com/L2BovVK.png"></a>
+                    <p><b>Solar System</b></p>
+                    <p>Relaxing animation of the solar system</p>
+                </div>
+                <div class='entry'>
+                    <a href=""><img src="https://i.imgur.com/yuT48IG.png"></a>
+                    <p><b>Vera Rubin Tribute page</b></p>
+                    <p>A simple tribute to an extraordinary woman of science and passion</p>
+                </div>
+            </div>
+        </div>
+        <div class='arrow2'>
+            <div class='left'></div>
+            <div class='right'></div>
+        </div>
+    </div>
+    <div id='contact' class='wrapper'>
+        <div class='header'>
+            <h1>Contact me</h1>
+            <p>I look forward to hearing from you!</p>   
+        </div>
+        <div class='contact'>
+            <form action="https://formspree.io/vallode@hotmail.co.uk" method="post">
+                <div>
+                    <label for='name'><b>Name:</b></label>
+                    <input type="text" name="name" id='name' placeholder="John Johningston">
+                </div>
+                <div>
+                    <label for='mail'><b>E-mail:</b></label>
+                    <input type="email" name="_replyto" id='mail' placeholder="john@johnweb.com">
+                </div>
+                <div>
+                    <label for='msg'><b>Message</b></label>
+                    <textarea id='msg' name='user_message' placeholder="Hi I wanted to tell you my name is John!"></textarea>
+                </div>
+                <div class='button'>
+                    <button type='submit' value='Send'>Send!</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>Made with <3 by <a href="">Mariusz</a></p>
+    </footer>
+</body>
+</html>
