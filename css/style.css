@@ -9,13 +9,13 @@
     color: #333;
 }
 
-/* Header */
-
 body,
 html {
     width: 100%;
     height: 100%;
 }
+
+/* Header/Landing */
 
 header {
     max-width: 100vw;
@@ -101,7 +101,7 @@ a:hover {
     left: 50%;
 }
 
-/* Content */
+/* Portfolio/Contact */
 
 .wrapper {
     min-height: 100%;
